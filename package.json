@@ -1,0 +1,20 @@
+{
+  "name": "req-header-parser",
+  "version": "1.0.0",
+  "description": "\u0016Request Header Parser Microservice",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/svmi3195/req-header-parser.git"
+  },
+  "author": "svmi3195",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/svmi3195/req-header-parser/issues"
+  },
+  "homepage": "https://github.com/svmi3195/req-header-parser#readme"
+}
