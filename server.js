@@ -12,7 +12,7 @@ http.createServer(function(req, res){
     }
 
     var lang = req.headers['accept-language'] || null;
-    if(lang && address.indexOf(',') != -1){
+    if(lang && lang.indexOf(',') != -1){
         lang = lang.slice(0, lang.indexOf(','));
     }
     
